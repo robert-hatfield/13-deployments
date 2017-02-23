@@ -20,16 +20,16 @@ We'll be using Heroku as our production server. Heroku is a "Platform as a Servi
 5. Let your brilliance shine unto the world!
 
 ## User Stories: MVP
- 1. As a site owner, I want my site running on a robust hosting platform, so that I don't have to hire a sysadmin.
+ - [x] As a site owner, I want my site running on a robust hosting platform, so that I don't have to hire a sysadmin.
   - Create a new Heroku app for deployment.
- 1. As a developer, I want my app to run in a development environment that matches production, so that I can reduce bugs related to infrastructure surprises.
+ - [x] As a developer, I want my app to run in a development environment that matches production, so that I can reduce bugs related to infrastructure surprises.
   - Start your app with `node server.js`
   - DONE: Refactor your AJAX request to proxy your GitHub API calls through the server
- 1. As a developer, I want my secret tokens accessed only through environment variables, so that I can keep them secure.
+ - [x] As a developer, I want my secret tokens accessed only through environment variables, so that I can keep them secure.
   - Set the proper env vars on your local system.
 
 ## User Stories: Stretch Goals
- 1. As a site owner, I want [blog.my-own-domain-name.io] hooked up to my Heroku app, so that I don't have to explain to people how to spell "myblog.herokuapp.com" over the phone.
+ - [x] As a site owner, I want [blog.lucidthought.xyz](http://blog.lucidthought.xyz) hooked up to my Heroku app, so that I don't have to explain to people how to spell "myblog.herokuapp.com" over the phone.
 
 ## Technical Requirements and Grading Rubric
  - Ensure your code passes ESLint
