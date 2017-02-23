@@ -1,7 +1,7 @@
 
 ![CF](https://i.imgur.com/7v5ASc8.png)  
 # Lab 13: Heroku Deployment!
-*Let's get out blog app deployed on Heroku!*
+*Let's get our blog app deployed on Heroku!*
 
 [Code of Conduct](https://github.com/codefellows/code-of-conduct)
 
@@ -24,7 +24,7 @@ We'll be using Heroku as our production server. Heroku is a "Platform as a Servi
   - Create a new Heroku app for deployment.
  1. As a developer, I want my app to run in a development environment that matches production, so that I can reduce bugs related to infrastructure surprises.
   - Start your app with `node server.js`
-  - TODO: Refactor your AJAX request to proxy your GitHub API calls through the server
+  - DONE: Refactor your AJAX request to proxy your GitHub API calls through the server
  1. As a developer, I want my secret tokens accessed only through environment variables, so that I can keep them secure.
   - Set the proper env vars on your local system.
 
